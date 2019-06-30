@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/ldj_self_menu")
+@RequestMapping("/fhb_self_menu")
 public class MenuController {
 
 

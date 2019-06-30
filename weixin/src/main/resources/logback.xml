@@ -6,7 +6,7 @@
 <configuration>
 	<!-- 设置日志文件的名称和路径，避免一个服务器里面有多个Spring Boot应用，把日志文件覆盖的问题 -->
 	<property name="LOG_FILE"
-		value="/tmp/ldj/spring-weixin.log" />
+		value="/tmp/fhb/spring-weixin.log" />
 	<include
 		resource="org/springframework/boot/logging/logback/base.xml" />
 

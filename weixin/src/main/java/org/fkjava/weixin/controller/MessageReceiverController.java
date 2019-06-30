@@ -19,7 +19,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 // Controller（控制器），其实就相当于是Servlet，但是Spring MVC把所有的Servlet相关API都屏蔽掉了！
 // 屏蔽的好处：不需要依赖Tomcat就可以实现单元测试。
 @RestController // 基于RESTful风格的WEB服务的控制器
-@RequestMapping("/ldj/wexin/reciver") // 访问哪个路径的时候，被此控制器处理
+@RequestMapping("/fhb/wexin/reciver") // 访问哪个路径的时候，被此控制器处理
 public class MessageReceiverController {
 
 	// 自动从Spring的容器里面获取一个消息服务出来，用于处理转换后的消息。现在还未实现消息的处理。

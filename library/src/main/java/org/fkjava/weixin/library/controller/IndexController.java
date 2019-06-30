@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("/ldj/library/index")
+@RequestMapping("/fhb/library/index")
 public class IndexController {
 
 	@Autowired

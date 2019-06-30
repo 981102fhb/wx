@@ -1,18 +1,18 @@
-# 配置数据源
+# 閰嶇疆鏁版嵁婧�
 spring:
    datasource:
-      # jdbc:mysql://127.0.0.1:3306/kemao_3 表示找到本机的MySQL服务器中名为kemao_3的数据库
-      # useSSL=false 表示不使用SSL加密
-      # serverTimezone=CST 指定服务器的时区，CST（China Standard Time）
-      url: jdbc:mysql://127.0.0.1:3306/ldj?useSSL=false&serverTimezone=CST&allowPublicKeyRetrieval=true
-      username: haibara
-      password: 326243hy
+      # jdbc:mysql://127.0.0.1:3306/kemao_3 琛ㄧず鎵惧埌鏈満鐨凪ySQL鏈嶅姟鍣ㄤ腑鍚嶄负kemao_3鐨勬暟鎹簱
+      # useSSL=false 琛ㄧず涓嶄娇鐢⊿SL鍔犲瘑
+      # serverTimezone=CST 鎸囧畾鏈嶅姟鍣ㄧ殑鏃跺尯锛孋ST锛圕hina Standard Time锛�
+      url: jdbc:mysql://127.0.0.1:3306/fhb?useSSL=false&serverTimezone=CST&allowPublicKeyRetrieval=true
+      username: root
+      password: 1234
    redis:
-      # 大家要把IP改为远程服务器的IP
+      # 澶у瑕佹妸IP鏀逛负杩滅▼鏈嶅姟鍣ㄧ殑IP
       host: 127.0.0.1
       port: 6379
-      # Redis里面没有数据库名，只有数据库的序号，默认是有16个数据库，分别是从0~16。
-      # 多人共享一个服务器的时候，每个人协商好各自使用哪个数据库。
+      # Redis閲岄潰娌℃湁鏁版嵁搴撳悕锛屽彧鏈夋暟鎹簱鐨勫簭鍙凤紝榛樿鏄湁16涓暟鎹簱锛屽垎鍒槸浠�0~16銆�
+      # 澶氫汉鍏变韩涓�涓湇鍔″櫒鐨勬椂鍊欙紝姣忎釜浜哄崗鍟嗗ソ鍚勮嚜浣跨敤鍝釜鏁版嵁搴撱��
       database: 15
 
 server.port: 51000

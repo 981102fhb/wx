@@ -1,0 +1,33 @@
+.item {
+	padding: 0px;
+}
+
+.item:hover {
+	background-color: rgba(100, 100, 100, 0.3);
+}
+
+.item img {
+	display: inline;
+	height: 50px;
+}
+
+.item .name {
+	display: inline;
+}
+
+.item .buttons {
+	display: inline;
+	float: right;
+	padding-top: 5px;
+}
+
+.item .buttons span {
+	background-color: #fff;
+	border: 1px solid #eee;
+	padding: 5px 15px;
+}
+
+.item .buttons span:hover {
+	background-color: #eee;
+	cursor: pointer;
+}

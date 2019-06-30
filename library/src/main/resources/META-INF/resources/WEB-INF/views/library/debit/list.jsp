@@ -16,7 +16,7 @@
 	<c:forEach items="${debitList.items }" var="item">
 	<div class="item">
 		${item.book.name }
-		<a href="/ldj/library/debit/remove/${item.book.id }" style="float: right;">删除</a>
+		<a href="/fhb/library/debit/remove/${item.book.id }" style="float: right;">删除</a>
 	</div>
 	</c:forEach>
 </body>
